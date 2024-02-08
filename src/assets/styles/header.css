@@ -1,0 +1,19 @@
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid blue;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    min-width: 50%;
+}
+
+.card-saldo-bruto{
+    border: 2px solid orange;
+}
