@@ -7,19 +7,37 @@
     <title>Home | Kinvo App</title>
     <link rel="stylesheet" href="src/assets/styles/reset.css">
     <link rel="stylesheet" href="src/assets/styles/vars.css">
-    <link rel="stylesheet" href="src/assets/styles/index.css">
+    <link rel="stylesheet" href="src/assets/styles/header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
-    <header>
-        <div class="header">
-            <div class="logo__header">
-                <img src="src/assets/imagens/logo_kinvo.svg" alt="Logo Kinvo">
-            </div>
-
+    <header class="header">
+        <div class="logo__header">
+            <img src="src/assets/imagens/logo_kinvo.svg" alt="Logo Kinvo">
         </div>
-
+        <nav class="nav">
+            <div class="card-saldo-bruto">
+                <i class="fa-solid fa-sack-dollar fa-xl"></i>
+                <span>Saldo Bruto</span>
+                <span>130.521.230,02</span>
+            </div>
+            <div class="card-valor-aplicado">
+                <span>Valor Aplicado</span>
+                <span>521,230,02</span>
+            </div>
+            <div class="card-rentabilidade">
+                <span>Rentabilidade</span>
+                <span>2,34%</span>
+            </div>
+            <div class="carteira__header">
+                <span>Carteira</span>
+                <span>Minha Carteira</span>
+            </div>
+            <div class="menu-mobile__header"></div>
+        </nav>
     </header>
+    <script src="https://kit.fontawesome.com/81d4235104.js" crossorigin="anonymous"></script>
     <script src="index.js" defer></script>
 </body>
 
