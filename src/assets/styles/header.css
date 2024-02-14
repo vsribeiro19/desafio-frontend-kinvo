@@ -1,19 +1,18 @@
-body{
+body {
     font-family: var(--font-montserrat);
     font-size: 16px;
 }
+
 .header {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1366px;
-    margin: 0 auto;
-    padding: 1rem;
+    width: 100%;
+    padding: 2rem 0;
 }
 
 .nav {
     display: flex;
-    justify-content: space-evenly;
-    min-width: 50%;
+    justify-content: space-between;
+    padding: 0 2rem;
+    border: 1px solid orange;
 }
 
 .transacoes-card {
@@ -33,13 +32,13 @@ body{
     color: #cdcfcf;
 }
 
-ul .titulo__transacoes-item{
+ul .titulo__transacoes-item {
     font-size: 0.58rem;
     color: #8F989D;
     text-transform: uppercase;
 }
 
-ul .valor__transacoes-item{
+ul .valor__transacoes-item {
     color: var(--font-silver-medium);
     font-weight: 800;
 }
