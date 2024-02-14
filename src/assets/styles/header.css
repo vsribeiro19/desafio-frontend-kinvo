@@ -1,19 +1,39 @@
-
-.header{
+.header {
     display: flex;
     justify-content: space-between;
     max-width: 1366px;
     margin: 0 auto;
     padding: 1rem;
-    border: 1px solid blue;
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-evenly;
     min-width: 50%;
 }
 
-.card-saldo-bruto{
-    border: 2px solid orange;
+.transacoes-card {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+
+.transacoes-item {
+    display: flex;
+    align-items: center;
+}
+
+.transacoes-item i {
+    padding: 0 10px;
+    color: #cdcfcf;
+}
+
+#arrow-down {
+    color: #5D41AC;
+}
+
+#menu-mobile {
+    background-color: #5D41AC;
+    border-radius: 50%;
 }
