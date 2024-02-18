@@ -11,7 +11,7 @@ body {
 .nav {
     display: flex;
     justify-content: space-between;
-    padding: 0 2rem;
+    padding: 0rem 6rem 0rem 3rem;
 }
 
 .transacoes-card {
@@ -33,7 +33,7 @@ body {
 
 ul .titulo__transacoes-item {
     font-size: 0.58rem;
-    color: #8F989D;
+    color: var(--font-silver-light);
     text-transform: uppercase;
 }
 
