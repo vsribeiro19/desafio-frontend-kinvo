@@ -1,9 +1,6 @@
-
-.sidebar{
+.sidebar {
     width: 17rem;
-    position:fixed;
-    top:6rem;
-    left:0;
-    bottom:0;
+    height: 20rem;
+    position: absolute;
     border: 1px solid orange;
 }
