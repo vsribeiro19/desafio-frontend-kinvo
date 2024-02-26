@@ -1,6 +1,6 @@
 .main {
     width: auto;
-    margin-left: 17rem;
+    margin-left: 14.169rem;
     background-color: #EEF2F4;
 }
 
@@ -52,4 +52,5 @@
     background-color: #fff;
     height: 10rem;
     border-radius: 10px;
+    font-size: 17px;
 }
