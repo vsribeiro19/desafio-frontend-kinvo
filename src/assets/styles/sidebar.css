@@ -1,8 +1,8 @@
 .sidebar {
     width: 14.169rem;
-    height: 20rem;
+    height: auto;
     position: absolute;
-    /* border: 1px solid silver; */
+    border: 1px solid silver;
 }
 
 .card__sidebar {
@@ -16,6 +16,11 @@
     gap: 1rem;
     align-items: center;
     padding: 1rem 0;
+}
+
+.card__sidebar-list:hover{
+    background-color: rgba(226, 226, 226,.3);
+    cursor: pointer;
 }
 
 .card__sidebar-list img {
@@ -38,4 +43,9 @@
     color: var(--font-silver-medium);
     text-transform: capitalize;
     line-height: 1rem;
+}
+
+.card__sidebar-item li:hover{
+    color: var(--font-silver-bold-header);
+    cursor: pointer;
 }
