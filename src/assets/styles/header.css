@@ -3,13 +3,13 @@ body {
     font-size: 16px;
     max-width: 85.375rem;
     margin: 0 auto;
-    border: 1px solid #d5d5d5;
 }
 
 .header {
     width: 100%;
     padding: 2rem 0;
-    box-shadow: 0px 7px 15px -15px #111;    
+    box-shadow: 0px 7px 20px -15px #111;
+    border: 1px solid #e2e2e2;
 }
 
 .nav {
@@ -53,4 +53,11 @@ ul .valor__transacoes-item {
 #menu-mobile {
     background-color: #5D41AC;
     border-radius: 50%;
+}
+
+
+@media(max-width:1000px) {
+    .logo__header img {
+        display: none;
+    }
 }
