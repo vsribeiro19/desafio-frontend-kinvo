@@ -43,9 +43,17 @@
     padding: 1rem;
 }
 
-.titulo-rentabilidade h1 {
-    color: var(--font-silver-medium);
+
+.titulo-rentabilidade {
+    max-width: 15rem;
     padding: 1rem;
+    color: var(--font-silver-medium);
+}
+
+.titulo-renda-fixa {
+    max-width: 15rem;
+    padding: 1rem;
+    color: var(--font-silver-medium);
 }
 
 .card-dashboard__section {
@@ -53,4 +61,31 @@
     height: 10rem;
     border-radius: 10px;
     font-size: 17px;
+}
+
+.nav__dashboard {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    display: flex;
+}
+
+.dropdown-pesquisa select {
+    width: 9.6rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #D6D9DD;
+}
+
+.input-barra-pesquisa input {
+    width: 15rem;
+    height: 2rem;
+    margin: 1rem;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid #D6D9DD;
 }
