@@ -1,6 +1,6 @@
 .sidebar {
     width: 14.169rem;
-    height: auto;
+    height: 100vh;
     position: absolute;
     border: 1px solid silver;
 }
