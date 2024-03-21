@@ -11,6 +11,10 @@ Clone o repositório
 ``` bash
 git clone https://github.com/vsribeiro19/desafio-frontend-kinvo.git
 ```
-e execute o arquivo **index.html**
+rode o seguinte comando para instalar a biblioteca de gráficos (charts.js)
+```bash
+npm install
+```
+por fim, execute o arquivo **index.html**
 
 
