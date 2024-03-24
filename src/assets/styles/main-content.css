@@ -30,7 +30,7 @@
 .titulo-cards {
     font-size: 10pt;
     color: var(--font-silver-light);
-    padding: 10px 0 0 25px;
+    padding: .62rem 0 0 1.56rem;
 }
 
 .preco-card {
@@ -174,3 +174,25 @@
 }
 
 /* Minhas rendas fixas - FIM */
+
+@media(max-width:1070px) {
+    .titulo-cards span {
+        width: 100%;
+        font-size: .7rem;
+    }
+
+    .cards h2 {
+        font-size: .7rem;
+    }
+}
+
+@media(max-width:980px) {
+    .titulo-cards span {
+        width: 100%;
+        font-size: .69rem;
+    }
+
+    .cards h2 {
+        font-size: .69rem;
+    }
+}
