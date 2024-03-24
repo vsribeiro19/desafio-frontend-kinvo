@@ -145,4 +145,16 @@
     line-height: 1.3rem;
 }
 
+.card-titulo-item{
+    font-size: .6rem;
+    font-weight: 600;
+    padding-right: 1.6rem;
+    padding-bottom: .3rem;
+}
+
+.card-titulo-price{
+    color: var(--font-card-titulo-price);
+    font-weight: 800;
+}
+
 /* Minhas rendas fixas - FIM */
