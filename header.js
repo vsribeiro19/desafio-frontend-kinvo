@@ -1,7 +1,9 @@
 
 class Header extends HTMLElement {
     constructor() {
-        super()
+        super();
+        const shadowRoot = this.attachShadow({ mode: "open" });
+        shadowRoot.appendChild(templateContent.cloneNode(true));
     }
 }
 
